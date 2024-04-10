@@ -1,0 +1,1 @@
+A short demo made for demonstrating typescript skills and knowledge.
