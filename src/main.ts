@@ -65,11 +65,11 @@ class RotatingTriangle {
   }
 
   increaseScale(): void {
-    if (this.scale <= 4) this.scale += 0.1;
+    if (this.scale < 4) this.scale += 0.5;
   }
 
   decreaseScale(): void {
-    if (this.scale >=2) this.scale -= 0.1;
+    if (this.scale > 2) this.scale -= 0.5;
   }
 
   changeSpeed(speed: number): void {
