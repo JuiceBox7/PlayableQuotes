@@ -43,14 +43,13 @@ class RotatingTriangle {
     this.ctx.lineWidth = 5;
     this.ctx.stroke();
 
-
     this.setFill(this.color);
 
     this.ctx.setTransform(1, 0, 0, 1, 0, 0);
     this.angle += this.speed;
   }
 
-  animate():void {
+  animate(): void {
     requestAnimationFrame(() => this.animate());
     this.draw();
   }
@@ -87,7 +86,7 @@ triangle.animate();
 app.append(canvas);
 app.append(document.createElement("br"));
 
-// -- Buttons --  
+// -- Buttons --
 
 const scaleUpBtn = document.createElement("button");
 scaleUpBtn.innerHTML = "+";
@@ -101,7 +100,7 @@ app.append(document.createElement("br"));
 
 const colorInput = document.createElement("input");
 colorInput.type = "color";
-colorInput.value = "#ffffff"
+colorInput.value = "#ffffff";
 app.append(colorInput);
 
 const slowBtn = document.getElementById("slow-btn")!;
