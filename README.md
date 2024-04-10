@@ -1,1 +1,1 @@
-A short demo made for demonstrating typescript skills and knowledge.
+A short demo made for Playable Quotes to demonstrate typescript skills and knowledge.
